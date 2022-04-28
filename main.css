@@ -1,0 +1,60 @@
+
+.navbar {
+    background-color: rgb(69, 117, 69)
+    ;
+}
+
+.main-title {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.conteiner-grids {
+    display: grid;
+    grid-template-areas: "productos productos"
+        "servicios cursos "
+        "comunidad comunidad";
+    margin: 50px;
+}
+
+.products-grid-area {}
+
+.product-grid-area {
+    grid-area: productos; 
+    background-color: blue; 
+   width: auto;
+   height: 250px;
+   margin: 10px
+}
+
+.services-grid-area {
+    grid-area: servicios;
+    background-color: orange;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+}
+
+.curses-grid-area {
+    grid-area: cursos;
+    background-color: green;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+}
+
+.community-grid-area {
+    grid-area: comunidad;
+    background-color: red;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+}
+
+.carousel-inner {
+    display: flexbox;
+    justify-content: center;
+    margin: 50px;
+}
