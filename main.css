@@ -1,7 +1,6 @@
-
 .navbar {
-    background-color: rgb(69, 117, 69)
-    ;
+    background-color: rgb(69, 117, 69);
+    margin-bottom: 100px;
 }
 
 .main-title {
@@ -19,14 +18,12 @@
     margin: 50px;
 }
 
-.products-grid-area {}
-
 .product-grid-area {
-    grid-area: productos; 
-    background-color: blue; 
-   width: auto;
-   height: 250px;
-   margin: 10px
+    grid-area: productos;
+    background-color: blue;
+    width: auto;
+    height: 250px;
+    margin: 10px
 }
 
 .services-grid-area {
@@ -53,8 +50,71 @@
     margin: 10px;
 }
 
-.carousel-inner {
-    display: flexbox;
+.sub-title {
+    display: flex;
+    word-wrap: normal;
     justify-content: center;
     margin: 50px;
+    padding: 20px;
+    font-size: 45px;
+
+}
+
+
+.conteiner-carousel {
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+
+}
+
+.grid-conteiner-footer {
+    display: grid;
+    grid-template-areas: 'productos servicios cursos comunidad nosotros' 
+    'seguinos seguinos seguinos seguinos seguinos';
+    gap: 10px;
+    background-color: aqua;
+    padding: 80px;
+    
+}
+
+.conteiner-footer-pr {
+    grid-area: productos;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.conteiner-footer-ss {
+    grid-area: servicios;
+    text-align: center;
+    font-size: 20px
+}
+
+.conteiner-footer-cs {
+    grid-area: cursos;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner-footer-cm {
+    grid-area: comunidad;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner-footer-we {
+    grid-area: nosotros;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conteiner-footer-sm {
+    grid-area: seguinos;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px
 }
