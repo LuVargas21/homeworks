@@ -25,7 +25,7 @@
 
 .product-grid-area {
     grid-area: productos;
-  background-color: green;
+    background-color: rgb(45, 0, 128);
     width: auto;
     height: 250px;
     margin: 10px
@@ -141,5 +141,21 @@
 .card {
     padding: 15px;
     margin: 15px;
+}
+
+.container-grid-ss {
+    padding: 50px;
+  
+}
+
+.col-3 {
+    font-size: 50px;
+    padding-top: 50px;
+  
+}
+
+.col-4 {
+font-size: 25px;
+padding: 15px;
 }
 
