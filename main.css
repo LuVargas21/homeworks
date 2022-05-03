@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(69, 117, 69);
+    background-color:#D1F2EB;
     margin-bottom: 100px;
 }
 
@@ -10,12 +10,12 @@
 
 .main-title {
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Cabin Sketch', cursive;
     margin: 10px;
     padding: 10px;
 }
 
-.conteiner-grids {
+.container-grids {
     display: grid;
     grid-template-areas: "productos productos"
         "servicios cursos "
@@ -25,34 +25,51 @@
 
 .product-grid-area {
     grid-area: productos;
-    background-color: rgb(45, 0, 128);
-    width: auto;
+    background-image: url(images/backgrounddd.jpg);
+    background-size: cover;
     height: 250px;
-    margin: 10px
+    margin: 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+    color: #000000;
+    
 }
 
 .services-grid-area {
     grid-area: servicios;
-    background-color: orange;
-    width: auto;
+    background-image: url(images/backcomunidad.jpg);
+    background-size: cover;
     height: 250px;
     margin: 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+    color: #000000;
 }
 
 .curses-grid-area {
     grid-area: cursos;
-    background-color: green;
+    background-image: url(images/background\ ss.jpg);
+    background-size: cover;
     width: auto;
     height: 250px;
     margin: 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+    color: #000000;
 }
 
 .community-grid-area {
     grid-area: comunidad;
-    background-color: red;
+    background-image: url(images/bc2.jpg);
+    background-size: cover;
+    background-position:unset;
+   
     width: auto;
     height: 250px;
     margin: 10px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 50px;
+    color: #000000;
 }
 
 .sub-title {
@@ -62,11 +79,11 @@
     margin: 50px;
     padding: 20px;
     font-size: 45px;
-
+    font-family: 'Cutive Mono', monospace;
 }
 
 
-.conteiner-carousel {
+.container-carousel {
     align-items: center;
     justify-content: center;
     padding-top: 50px;
@@ -76,48 +93,48 @@
 
 }
 
-.grid-conteiner-footer {
+.grid-container-footer {
     display: grid;
     grid-template-areas: 'productos servicios cursos comunidad nosotros'
         'seguinos seguinos seguinos seguinos seguinos';
     gap: 10px;
-    background-color: aqua;
+    background-color:#D1F2EB; 
     padding: 80px;
 
 }
 
-.conteiner-footer-pr {
+.container-footer-pr {
     grid-area: productos;
     text-align: center;
     font-size: 20px;
 
 }
 
-.conteiner-footer-ss {
+.container-footer-ss {
     grid-area: servicios;
     text-align: center;
     font-size: 20px
 }
 
-.conteiner-footer-cs {
+.container-footer-cs {
     grid-area: cursos;
     text-align: center;
     font-size: 20px;
 }
 
-.conteiner-footer-cm {
+.container-footer-cm {
     grid-area: comunidad;
     text-align: center;
     font-size: 20px;
 }
 
-.conteiner-footer-we {
+.container-footer-we {
     grid-area: nosotros;
     text-align: center;
     font-size: 20px;
 }
 
-.conteiner-footer-sm {
+.container-footer-sm {
     grid-area: seguinos;
     text-align: center;
     margin-top: 30px;
@@ -125,7 +142,7 @@
 }
 
 
-.conteiner-grid-product {
+.container-grid-product {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -145,17 +162,25 @@
 
 .container-grid-ss {
     padding: 50px;
-  
+
 }
 
 .col-3 {
     font-size: 50px;
     padding-top: 50px;
-  
+
 }
 
 .col-4 {
-font-size: 25px;
-padding: 15px;
+    font-size: 25px;
+    padding: 15px;
 }
 
+.container-ss {
+    margin: 100px;
+
+}
+
+.sub-title3{
+    font-family: 'Cutive Mono', monospace; 
+}
