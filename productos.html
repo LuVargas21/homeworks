@@ -1,321 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Cutive+Mono&display=swap"
+            rel="stylesheet" />
 
+        <link rel="stylesheet" href="main.css" />
+        <title>MandragoraTiendaVirtual</title>
+    </head>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Cutive+Mono&display=swap" rel="stylesheet">
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.jpg" alt="" width="80" height="80"
+                            class="d-inline-block align-text-top" />
+                    </a>
 
-    <link rel="stylesheet" href="main.css">
-    <title>MandragoraTiendaVirtual</title>
+                    <div>
+                        <h1 class="main-title">Mandrágora</h1>
+                    </div>
 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-</head>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="servicios.html"> Servicios</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Comunidad</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Cursos</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> Nosotros</a>
+                            </li>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.jpg" alt="" width="80" height="80" class="d-inline-block align-text-top">
+                            <li>
+                                <a class="linkListaMenu" href="connection.html"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-                </a>
+        <section>
+            <h1 class="sub-title">Plantas</h1>
 
+            <div class="container-grid-product">
+                <div class="card" style="width: 18rem">
+                    <img src="images/alocasia amazonica.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Alocasia Amazonica</h5>
+                        <p>$2500</p>
 
-                <div>
-                    <h1 class="main-title">Mandrágora</h1>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
                 </div>
 
+                <div class="card" style="width: 18rem">
+                    <img src="images/Calathea ctenanthe setosa.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Calatea Cthenanthe</h5>
+                        <p>$1450</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <div class="card" style="width: 18rem">
+                    <img src="images/Calathea mil rayas.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Calathea Mil Rayas</h5>
+                        <p>$1700</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                </button>
+                <div class="card" style="width: 18rem">
+                    <img src="images/diffenbachia.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Dieffenbachia</h5>
+                        <p>$2500</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="card" style="width: 18rem">
+                    <img src="images/ficus elastica.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Ficus Elástica</h5>
+                        <p>$3000</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Productos</a>
-                        </li>
+                <div class="card" style="width: 18rem">
+                    <img src="images/ficus lyrata.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Ficus Lyrata</h5>
+                        <p>$3500</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Servicios</a>
-                        </li>
+                <div class="card" style="width: 18rem">
+                    <img src="images/Maranta Puertorriqueña.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maranta Puertoriqueña</h5>
+                        <p>$2200</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Comunidad</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"> Cursos</a>
-                        </li>
+                <div class="card" style="width: 18rem">
+                    <img src="images/Monstera adansonii.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Monstera Adanasonni</h5>
+                        <p>$3000</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"> Nosotros</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-
-                        </li>
-                    </ul>
+                <div class="card" style="width: 18rem">
+                    <img src="images/Stromanthe sanguinea.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Stromanthe Sanguinea</h5>
+                        <p>$2500</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
+        <section>
+            <h2 class="sub-title">Macetas</h2>
 
+            <div class="container-grid-product">
+                <div class="card" style="width: 18rem">
+                    <img src="images/maceta ballena.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Ballena</h5>
+                        <p>$1500</p>
 
-        </nav>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
+                <div class="card" style="width: 18rem">
+                    <img src="images/maceta ceramica combinada.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Combinada</h5>
+                        <p>$4000</p>
 
-    </header>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-    <section>
+                <div class="card" style="width: 18rem">
+                    <img src="images/maceta cilindro.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Cilindro</h5>
+                        <p>$2500</p>
 
-        <h1 class="sub-title">Plantas </h1>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-        <div class="container-grid-product">
+                <div class="card" style="width: 18rem">
+                    <img src="images/maceta colgante.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Colgante</h5>
+                        <p>$2500</p>
 
-            <div class="card" style="width: 18rem;">
-                <img src="images/alocasia amazonica.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Alocasia Amazonica </h5>
-                    <p> $2500</p>
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
 
-                    <a href="#" class="btn btn-primary">La quiero!</a>
+                <div class="card" style="width: 18rem">
+                    <img src="images/maceta prisma.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Prisma</h5>
+                        <p>$1500</p>
+
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem">
+                    <img src="images/maceta saphi.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Saphi</h5>
+                        <p>$2500</p>
+
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem">
+                    <img src="images/Maceta Bohemia.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">Maceta Bohemia</h5>
+                        <p>$4500</p>
+
+                        <a href="#" class="btn btn-primary">La quiero!</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
+        <footer>
+            <div class="grid-container-footer">
+                <div class="container-footer-pr">Productos</div>
 
+                <div class="container-footer-ss">Servicios</div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="images/Calathea ctenanthe setosa.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Calatea Cthenanthe </h5>
-                    <p>$1450</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
+                <div class="container-footer-cs">Cursos</div>
+
+                <div class="container-footer-cm">Comunidad</div>
+
+                <div class="container-footer-we">Nosotros</div>
+
+                <div class="container-footer-sm">
+                    Seguinos en nuestras redes sociales
                 </div>
             </div>
-
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/Calathea mil rayas.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Calathea Mil Rayas</h5>
-                    <p>$1700</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/diffenbachia.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dieffenbachia</h5>
-                    <p>$2500</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/ficus elastica.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ficus Elástica</h5>
-                    <p>$3000</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/ficus lyrata.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ficus Lyrata</h5>
-                    <p>$3500</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/Maranta Puertorriqueña.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Maranta Puertoriqueña</h5>
-                    <p>$2200</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/Monstera adansonii.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Monstera Adanasonni</h5>
-                    <p>$3000</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/Stromanthe sanguinea.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Stromanthe Sanguinea</h5>
-                    <p>$2500</p>
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-        </div>
-
-
-
-
-    </section>
-
-
-
-
-    <section>
-        <h2 class="sub-title"> Macetas </h2>
-
-        <div class="container-grid-product">
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/maceta ballena.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Ballena </h5>
-                    <p> $1500</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/maceta ceramica combinada.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Combinada </h5>
-                    <p> $4000</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/maceta cilindro.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Cilindro </h5>
-                    <p> $2500</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/maceta colgante.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Colgante </h5>
-                    <p> $2500</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/maceta prisma.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Prisma </h5>
-                    <p> $1500</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/maceta saphi.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Saphi </h5>
-                    <p> $2500</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="images/Maceta Bohemia.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"> Maceta Bohemia </h5>
-                    <p> $4500</p>
-
-                    <a href="#" class="btn btn-primary">La quiero!</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-
-    <footer>
-        <div class="grid-container-footer">
-            <div class="container-footer-pr">
-                Productos
-            </div>
-
-            <div class="container-footer-ss">
-                Servicios
-            </div>
-
-            <div class="container-footer-cs">
-                Cursos
-            </div>
-
-            <div class="container-footer-cm">
-                Comunidad
-            </div>
-
-            <div class="container-footer-we">
-                Nosotros
-            </div>
-
-            <div class="container-footer-sm">
-                Seguinos en nuestras redes sociales
-            </div>
-
-        </div>
-    </footer>
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-</body>
-
-
-
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
