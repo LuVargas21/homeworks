@@ -27,7 +27,8 @@
     grid-area: productos;
     background-image: url(images/backgrounddd.jpg);
     background-size: cover;
-    height: 250px;
+    background-position: center;
+    height: 450px;
     margin: 10px;
     font-family: 'Cutive Mono', monospace;
     font-size: 50px;
@@ -37,9 +38,9 @@
 
 .services-grid-area {
     grid-area: servicios;
-    background-image: url(images/backcomunidad.jpg);
+    background-image: url(images/jardin\ 1.jpg);
     background-size: cover;
-    height: 250px;
+    height: 450px;
     margin: 10px;
     font-family: 'Cutive Mono', monospace;
     font-size: 50px;
@@ -51,7 +52,7 @@
     background-image: url(images/background\ ss.jpg);
     background-size: cover;
     width: auto;
-    height: 250px;
+    height: 450px;
     margin: 10px;
     font-family: 'Cutive Mono', monospace;
     font-size: 50px;
@@ -60,12 +61,12 @@
 
 .community-grid-area {
     grid-area: comunidad;
-    background-image: url(images/bc2.jpg);
+    background-image: url(images/backcomunidad.jpg);
     background-size: cover;
-    background-position: unset;
+    background-position: center;
 
     width: auto;
-    height: 250px;
+    height: 300px;
     margin: 10px;
     font-family: 'Cutive Mono', monospace;
     font-size: 50px;
@@ -184,3 +185,11 @@
 .sub-title3 {
     font-family: 'Cutive Mono', monospace;
 }
+
+.sub-title4 {
+    font-family: 'Cutive Mono', monospace;
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
