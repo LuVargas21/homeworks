@@ -1,10 +1,14 @@
 .navbar {
-    background-color: #D1F2EB;
+    background-color: #54b77d;
     margin-bottom: 100px;
 }
 
 .nav-item {
     font-size: 15px;
+    color: #000000;
+}
+
+.a.nav-link {
     color: #000000;
 }
 
@@ -99,7 +103,7 @@
     grid-template-areas: 'productos servicios cursos comunidad nosotros'
         'seguinos seguinos seguinos seguinos seguinos';
     gap: 10px;
-    background-color: #D1F2EB;
+    background-color:  #54b77d;
     padding: 80px;
 
 }
@@ -143,6 +147,7 @@
 }
 
 
+
 .container-grid-product {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -152,9 +157,6 @@
     margin-left: 90px;
 }
 
-.btn {
-    color: white;
-}
 
 .card {
     padding: 15px;
@@ -188,8 +190,60 @@
 
 .sub-title4 {
     font-family: 'Cutive Mono', monospace;
-    display:flex;
+    display: flex;
     justify-content: center;
     font-size: 40px;
 }
 
+
+.container { align-items: center;
+margin: 80px;
+}
+
+.col-sm-6 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    margin: 8px;
+    color: #54b77d;
+}
+
+.col-sm-5 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color:  #54b77d;
+}
+
+.col-sm {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color:  #54b77d;
+}
+
+.text5 {
+    font-size: 15px;
+    color: #000000;
+}
+
+.row {
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.text6 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+
+.subtitle3 {
+    font-family: 'Cutive Mono', monospace;
+    display: flex;
+    justify-content:space-between;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.subtitle4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:  #54b77d;
+}
