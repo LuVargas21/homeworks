@@ -10,7 +10,7 @@
 
         .link-dark {
             display: block;
-            padding:  $size10 $size10b;
+            padding:  $size10 $size10*2;
             color: $color-font;
             text-decoration: none;
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;

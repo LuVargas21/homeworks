@@ -10,10 +10,10 @@
 
 .link-dark {
     display: block;
-    padding:  8px 16px;
+    padding: 8px 16px;
     color: #000000;
     text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
 .main-title {
@@ -46,7 +46,7 @@
 
 .services-grid-area {
     grid-area: servicios;
-    background-image: url(images/backg1.jpg);
+    background-image: url(images/blog1.jpg);
     background-size: cover;
     height: 450px;
     margin: 10px;
@@ -69,7 +69,7 @@
 
 .community-grid-area {
     grid-area: comunidad;
-    background-image: url(images/backcomunidad.jpg);
+    background-image: url(images/);
     background-size: cover;
     background-position: center;
 
@@ -107,7 +107,7 @@
     grid-template-areas: 'productos servicios cursos comunidad nosotros'
         'seguinos seguinos seguinos seguinos seguinos';
     gap: 10px;
-    background-color:  #54b77d;
+    background-color: #54b77d;
     padding: 80px;
 
 }
@@ -162,12 +162,26 @@
 }
 
 
-.card {
+.card, .card2 {
     padding: 15px;
     margin: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
 }
 
 
+.card2 {
+   
+    background-color: #3fbc79;
+    border-radius: 10px;
+}
 
 .col-3 {
     font-size: 50px;
@@ -197,8 +211,10 @@
 }
 
 
-.container { align-items: center;
-margin: 80px;
+.container {
+    align-items: center;
+    margin: 80px;
+    padding: 15px;
 }
 
 .col-sm-6 {
@@ -211,20 +227,20 @@ margin: 80px;
 .col-sm-5 {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
-    color:  #54b77d;
+    color: #54b77d;
 }
 
 .col-sm {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
-    color:  #54b77d;
+    color: #54b77d;
 }
 
 .text5 {
     font-size: 15px;
     color: #000000;
     font-family: 'Cutive Mono', monospace;
-    text-align:start;
+    text-align: start;
 }
 
 .row {
@@ -233,16 +249,16 @@ margin: 80px;
 }
 
 .text6 {
-font-family: 'Times New Roman', Times, serif;
-font-size: 25px;
-padding: 10px;
-margin: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 25px;
 }
 
 .subtitle3 {
     font-family: 'Cutive Mono', monospace;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     font-size: 40px;
     padding: 20px;
 }
@@ -250,20 +266,19 @@ margin: 25px;
 .subtitle4 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    color:  #54b77d;
+    color: #54b77d;
 }
 
 .container-grid-video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     padding: 50px;
-    margin: 40px;   
+    margin: 40px;
 }
 
 .text7 {
-    color: #54b77d;
-    font-size: 15px ;
+    color: #000000;
+    font-size: 20px;
 }
 
 
@@ -272,8 +287,8 @@ margin: 25px;
     margin-left: 100px;
 }
 
-.col-6 { 
+.col-6 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    color:  #54b77d  
+    color: #54b77d
 }
