@@ -1,0 +1,45 @@
+.main-title {
+    font-size: $size5;
+    font-family: $brand-font;
+    margin: $size1;
+    padding: $size1;
+}
+
+
+.sub-title {
+    display: flex;
+    word-wrap: normal;
+    justify-content: center;
+    margin: $size5;
+    padding: $size3;
+    font-size: $size4b;
+    font-family: $container-font;
+}
+
+
+.sub-title3 {
+    font-family: $container-font;
+}
+
+
+
+.col-3 {
+    font-size: $size5;
+    padding-top: $size5;
+
+}
+
+.col-4 {
+    font-size: $size3b;
+    padding: $size2;
+}
+
+.card {
+    padding: $size2;
+    margin: $size2;
+}
+
+.container-grid-ss {
+    padding: $size5;
+
+}

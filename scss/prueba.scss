@@ -1,0 +1,23 @@
+$brand-color: #D1F2EB;
+$brand-font: 'Cabin Sketch', cursive;
+$container-font: 'Cutive Mono', monospace;
+$color-font: #000000;
+$color-btn: #ffffff;
+$size1: 10px;
+$size2: 15px;
+$size3: 20px;
+$size3b: 25px;
+$size4: 40px; 
+$size5: 50px;
+$size6: 100px;
+$size7: 250px; 
+$size8: 90px;
+$size9:80px;
+
+
+@import "variables";
+@import "header";
+@import "footer";
+@import "grids";
+@import "textandcontent"
+

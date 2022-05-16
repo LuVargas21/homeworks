@@ -1,0 +1,126 @@
+.navbar {
+  background-color: #D1F2EB;
+  margin-bottom: 100px; }
+  .navbar .nav-item {
+    font-size: 15px;
+    color: #000000; }
+
+.grid-container-footer {
+  display: grid;
+  grid-template-areas: 'productos servicios cursos comunidad nosotros' 'seguinos seguinos seguinos seguinos seguinos';
+  gap: 10px;
+  background-color: #D1F2EB;
+  padding: 80px; }
+  .grid-container-footer .container-footer-pr {
+    grid-area: productos;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-ss {
+    grid-area: servicios;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-cs {
+    grid-area: cursos;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-cm {
+    grid-area: comunidad;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-we {
+    grid-area: nosotros;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-sm {
+    grid-area: seguinos;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px; }
+
+.btn {
+  color: #ffffff; }
+
+.container-grids {
+  display: grid;
+  grid-template-areas: "productos productos" "servicios cursos " "comunidad comunidad";
+  margin: 50px; }
+  .container-grids .product-grid-area {
+    grid-area: productos;
+    background-image: url(images/backgrounddd.jpg);
+    background-size: cover;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+  .container-grids .services-grid-area {
+    grid-area: servicios;
+    background-image: url(images/backcomunidad.jpg);
+    background-size: cover;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+  .container-grids .curses-grid-area {
+    grid-area: cursos;
+    background-image: url(images/servicios.jpg);
+    background-size: cover;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+  .container-grids .community-grid-area {
+    grid-area: comunidad;
+    background-image: url(images/bc2.jpg);
+    background-size: cover;
+    background-position: unset;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+
+.container-grid-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 50px;
+  margin: 40px;
+  margin-left: 30px; }
+
+.main-title {
+  font-size: 50px;
+  font-family: "Cabin Sketch", cursive;
+  margin: 10px;
+  padding: 10px; }
+
+.sub-title {
+  display: flex;
+  word-wrap: normal;
+  justify-content: center;
+  margin: 50px;
+  padding: 20px;
+  font-size: 45px;
+  font-family: "Cutive Mono", monospace; }
+
+.sub-title3 {
+  font-family: "Cutive Mono", monospace; }
+
+.col-3 {
+  font-size: 50px;
+  padding-top: 50px; }
+
+.col-4 {
+  font-size: 25px;
+  padding: 15px; }
+
+.card {
+  padding: 15px;
+  margin: 15px; }
+
+.container-grid-ss {
+  padding: 50px; }

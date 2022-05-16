@@ -1,0 +1,53 @@
+.grid-container-footer {
+    display: grid;
+    grid-template-areas: 'productos servicios cursos comunidad nosotros'
+        'seguinos seguinos seguinos seguinos seguinos';
+    gap: $size1;
+    background-color: $brand-color;
+    padding: $size9;
+
+
+
+    .container-footer-pr {
+        grid-area: productos;
+        text-align: center;
+        font-size: $size2;
+
+    }
+
+    .container-footer-ss {
+        grid-area: servicios;
+        text-align: center;
+        font-size: $size2; 
+    }
+
+    .container-footer-cs {
+        grid-area: cursos;
+        text-align: center;
+        font-size: $size2;
+    }
+
+    .container-footer-cm {
+        grid-area: comunidad;
+        text-align: center;
+        font-size: $size2;
+    }
+
+    .container-footer-we {
+        grid-area: nosotros;
+        text-align: center;
+        font-size: $size2;
+    }
+
+    .container-footer-sm {
+        grid-area: seguinos;
+        text-align: center;
+        margin-top: $size8;
+        font-size: $size2; 
+    }
+}
+
+
+.btn {
+    color: $color-btn;
+}

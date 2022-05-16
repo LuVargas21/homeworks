@@ -1,0 +1,67 @@
+.container-grids {
+    display: grid;
+    grid-template-areas: "productos productos"
+        "servicios cursos "
+        "comunidad comunidad";
+    margin: $size5;
+
+
+    .product-grid-area {
+        grid-area: productos;
+        background-image: url(images/backgrounddd.jpg);
+        background-size: cover;
+        height: $size7;
+        margin: $size1;
+        font-family: $container-font;
+        font-size: $size5;
+        color: $color-font;
+
+    }
+
+    .services-grid-area {
+        grid-area: servicios;
+        background-image: url(images/backcomunidad.jpg);
+        background-size: cover;
+        height: $size7;
+        margin: $size1;
+        font-family: $container-font;
+        font-size: $size5;
+        color: $color-font;
+    }
+
+    .curses-grid-area {
+        grid-area: cursos;
+        background-image: url(images/servicios.jpg);
+        background-size: cover;
+        width: auto;
+        height: $size7;
+        margin: $size1;
+        font-family: $container-font;
+        font-size: $size5;
+        color: $color-font;
+    }
+
+    .community-grid-area {
+        grid-area: comunidad;
+        background-image: url(images/bc2.jpg);
+        background-size: cover;
+        background-position: unset;
+
+        width: auto;
+        height: $size7;
+        margin: $size1;
+        font-family: $container-font;
+        font-size: $size5;
+        color: $color-font;
+    }
+}
+
+
+.container-grid-product {
+    display: grid;
+    grid-template-columns: $fraccion $fraccion $fraccion;
+    grid-template-rows: $fraccion $fraccion $fraccion;
+    padding: $size5;
+    margin: $size4;;
+    margin-left: $size8;
+}
