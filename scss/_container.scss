@@ -1,0 +1,62 @@
+.container-carousel {
+    align-items: center;
+    justify-content: center;
+    padding-top: $size5;
+    padding-left: $size7b;
+    padding-right: $size7;
+    padding-bottom: $size6;
+
+}
+
+
+
+.card {
+    padding: $size2;
+    margin: $size2;
+}
+
+
+
+
+.col-3 {
+    font-size: $size5;
+    padding-top: $size5;
+
+}
+
+.col-4 {
+    font-size: $size3b;
+    padding: $size2;
+}
+
+
+
+.container {
+    align-items: center;
+    margin: $size9;
+
+
+    .col-sm-6 {
+        font-family: 'Cutive Mono', monospace;
+        font-size: $size3b;
+        margin: $size10;
+        color: $brand-color;
+    }
+
+    .col-sm-5 {
+        font-family: 'Cutive Mono', monospace;
+        font-size: $size3b;
+        color: $brand-color;
+    }
+
+    .col-sm {
+        font-family: 'Cutive Mono', monospace;
+        font-size: $size3b;
+        color: $brand-color;
+    }
+
+    .row {
+        padding: $size1;
+        margin-top: $size3b;
+    }
+}

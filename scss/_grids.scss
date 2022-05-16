@@ -62,6 +62,23 @@
     grid-template-columns: $fraccion $fraccion $fraccion;
     grid-template-rows: $fraccion $fraccion $fraccion;
     padding: $size5;
-    margin: $size4;;
+    margin: $size4;
+    ;
     margin-left: $size8;
+}
+
+
+.container-grid-video {
+    display: grid;
+    grid-template-columns: $fraccion $fraccion $fraccion;
+    grid-template-rows: $fraccion $fraccion $fraccion;
+    padding: $size5;
+    margin: $size4;
+
+
+
+    .card {
+        padding: $size2;
+        margin: $size2;
+    }
 }

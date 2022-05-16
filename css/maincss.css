@@ -4,6 +4,8 @@
   .navbar .nav-item {
     font-size: 15px;
     color: #000000; }
+    .navbar .nav-item .a.nav-link {
+      color: #000000; }
 
 .grid-container-footer {
   display: grid;
@@ -36,9 +38,6 @@
     text-align: center;
     margin-top: 30px;
     font-size: 15px; }
-
-.btn {
-  color: #ffffff; }
 
 .container-grids {
   display: grid;
@@ -92,6 +91,16 @@
   margin: 40px;
   margin-left: 30px; }
 
+.container-grid-video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 50px;
+  margin: 40px; }
+  .container-grid-video .card {
+    padding: 15px;
+    margin: 15px; }
+
 .main-title {
   font-size: 50px;
   font-family: "Cabin Sketch", cursive;
@@ -110,6 +119,55 @@
 .sub-title3 {
   font-family: "Cutive Mono", monospace; }
 
+.sub-title3 {
+  font-family: "Cutive Mono", monospace; }
+
+.sub-title4 {
+  font-family: "Cutive Mono", monospace;
+  display: flex;
+  justify-content: center;
+  font-size: 40px; }
+
+.text5 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Cutive Mono", monospace;
+  text-align: start; }
+
+.text6 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding: 10px;
+  margin: 25px; }
+
+.subtitle3 {
+  font-family: "Cutive Mono", monospace;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  padding: 20px; }
+
+.subtitle4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #D1F2EB; }
+
+.text7 {
+  color: #D1F2EB;
+  font-size: 15px; }
+
+.container-carousel {
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 250px;
+  padding-bottom: 100px; }
+
+.card {
+  padding: 15px;
+  margin: 15px; }
+
 .col-3 {
   font-size: 50px;
   padding-top: 50px; }
@@ -118,9 +176,22 @@
   font-size: 25px;
   padding: 15px; }
 
-.card {
-  padding: 15px;
-  margin: 15px; }
-
-.container-grid-ss {
-  padding: 50px; }
+.container {
+  align-items: center;
+  margin: 80px; }
+  .container .col-sm-6 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    margin: 8px;
+    color: #D1F2EB; }
+  .container .col-sm-5 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color: #D1F2EB; }
+  .container .col-sm {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color: #D1F2EB; }
+  .container .row {
+    padding: 10px;
+    margin-top: 25px; }

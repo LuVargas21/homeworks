@@ -1,10 +1,9 @@
 {
   "name": "task-6",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/prueba.scss css/maincss.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
@@ -13,5 +12,14 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuVargas21/homeworks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuVargas21/homeworks/issues"
+  },
+  "homepage": "https://github.com/LuVargas21/homeworks#readme",
+  "description": ""
 }
