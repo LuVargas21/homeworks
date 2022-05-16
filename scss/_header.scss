@@ -8,8 +8,12 @@
         font-size: $size2;
         color: $color-font;
 
-        .a.nav-link {
+        .nav-link {
+            display: block;
+            padding: $size10 $size10b;
             color: $color-font;
+            text-decoration: none;
+           
         }
     }
 }

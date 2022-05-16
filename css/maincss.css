@@ -4,8 +4,11 @@
   .navbar .nav-item {
     font-size: 15px;
     color: #000000; }
-    .navbar .nav-item .a.nav-link {
-      color: #000000; }
+    .navbar .nav-item .nav-link {
+      display: block;
+      padding: 8px 16px;
+      color: #000000;
+      text-decoration: none; }
 
 .grid-container-footer {
   display: grid;
