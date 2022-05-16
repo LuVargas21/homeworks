@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #D1F2EB;
+  background-color: #54b77d;
   margin-bottom: 100px; }
   .navbar .nav-item {
     font-size: 15px;
@@ -11,7 +11,7 @@
   display: grid;
   grid-template-areas: 'productos servicios cursos comunidad nosotros' 'seguinos seguinos seguinos seguinos seguinos';
   gap: 10px;
-  background-color: #D1F2EB;
+  background-color: #54b77d;
   padding: 80px; }
   .grid-container-footer .container-footer-pr {
     grid-area: productos;
@@ -150,10 +150,10 @@
 .subtitle4 {
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
-  color: #D1F2EB; }
+  color: #54b77d; }
 
 .text7 {
-  color: #D1F2EB;
+  color: #54b77d;
   font-size: 15px; }
 
 .container-carousel {
@@ -183,15 +183,15 @@
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
     margin: 8px;
-    color: #D1F2EB; }
+    color: #54b77d; }
   .container .col-sm-5 {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
-    color: #D1F2EB; }
+    color: #54b77d; }
   .container .col-sm {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
-    color: #D1F2EB; }
+    color: #54b77d; }
   .container .row {
     padding: 10px;
     margin-top: 25px; }
