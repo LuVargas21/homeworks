@@ -8,9 +8,9 @@
     color: #000000;
 }
 
-.nav-link {
+.link-dark {
     display: block;
-    padding: 0.5rem 1rem;
+    padding:  8px 16px;
     color: #000000;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -33,7 +33,7 @@
 
 .product-grid-area {
     grid-area: productos;
-    background-image: url(images/backgrounddd.jpg);
+    background-image: url(images/backgrounddd.webp);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -46,7 +46,7 @@
 
 .services-grid-area {
     grid-area: servicios;
-    background-image: url(images/jardin\ 1.jpg);
+    background-image: url(images/backg1.jpg);
     background-size: cover;
     height: 450px;
     margin: 10px;
