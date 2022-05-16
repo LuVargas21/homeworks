@@ -4,11 +4,12 @@
   .navbar .nav-item {
     font-size: 15px;
     color: #000000; }
-    .navbar .nav-item .nav-link {
+    .navbar .nav-item .link-dark {
       display: block;
       padding: 8px 16px;
       color: #000000;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
 
 .grid-container-footer {
   display: grid;
