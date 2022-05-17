@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #54b77d;
+    background-color: #3fbc79;
     margin-bottom: 100px;
 }
 
@@ -69,7 +69,7 @@
 
 .community-grid-area {
     grid-area: comunidad;
-    background-image: url(images/);
+    background-image: url(images/backcomunidad.jpg);
     background-size: cover;
     background-position: center;
 
@@ -107,7 +107,7 @@
     grid-template-areas: 'productos servicios cursos comunidad nosotros'
         'seguinos seguinos seguinos seguinos seguinos';
     gap: 10px;
-    background-color: #54b77d;
+    background-color: #3fbc79;
     padding: 80px;
 
 }
@@ -221,19 +221,19 @@
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
     margin: 8px;
-    color: #54b77d;
+    color: #3fbc79;
 }
 
 .col-sm-5 {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
-    color: #54b77d;
+    color: #3fbc79;
 }
 
 .col-sm {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
-    color: #54b77d;
+    color: #3fbc79;
 }
 
 .text5 {
@@ -266,7 +266,7 @@
 .subtitle4 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: #54b77d;
+    color: #3fbc79;
 }
 
 .container-grid-video {
@@ -290,5 +290,19 @@
 .col-6 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: #54b77d
+    color: #3fbc79;
 }
+
+.whatsapp {
+    position:fixed;
+    width:200px;
+    height:200px;
+    bottom:20px;
+    right:40px;
+    color: #000000;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+  
+  }
+  

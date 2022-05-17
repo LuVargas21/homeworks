@@ -1,4 +1,4 @@
-$brand-color: #D1F2EB;
+$brand-color: #3fbc79;
 $brand-font: 'Cabin Sketch', cursive;
 $container-font: 'Cutive Mono', monospace;
 $content-font: 'Times New Roman', Times, serif;
@@ -26,18 +26,20 @@ $size9: 80px;
 
 // MAP DE FOOTER
 
-$redesSociales: (
-    YouTube: #ffffff,
-    Facebook: #ffffff,
-    Instagram: #ffffff,
-);
+$redes: (
+    Youtube: black, 
+    Facebook: grey,
+    Instagram: white, 
+    Whatsapp: black
+); 
 
-@each $red in $redesSociales {
-    .red-# ($red) {
-        color: $color;
+@each $red,$color in $redes {
+    .red-#{$red} {
+        color: $color, 
     }
+} 
 
-}
+
 
 // EXTEND EN CARDS
 
