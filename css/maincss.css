@@ -1,0 +1,234 @@
+.navbar {
+  background-color: #54b77d;
+  margin-bottom: 100px; }
+  .navbar .nav-item {
+    font-size: 15px;
+    color: #000000; }
+    .navbar .nav-item .link-dark {
+      display: block;
+      padding: 8px 16px;
+      color: #000000;
+      text-decoration: none;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
+
+.grid-container-footer {
+  display: grid;
+  grid-template-areas: 'productos servicios cursos comunidad nosotros' 'seguinos seguinos seguinos seguinos seguinos';
+  gap: 10px;
+  background-color: #54b77d;
+  padding: 80px; }
+  .grid-container-footer .container-footer-pr {
+    grid-area: productos;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-ss {
+    grid-area: servicios;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-cs {
+    grid-area: cursos;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-cm {
+    grid-area: comunidad;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-we {
+    grid-area: nosotros;
+    text-align: center;
+    font-size: 15px; }
+  .grid-container-footer .container-footer-sm {
+    grid-area: seguinos;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px; }
+
+.container-grids {
+  display: grid;
+  grid-template-areas: "productos productos" "servicios cursos " "comunidad comunidad";
+  margin: 50px; }
+  .container-grids .product-grid-area {
+    grid-area: productos;
+    background-image: url(images/backgrounddd.jpg);
+    background-size: cover;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+  .container-grids .services-grid-area {
+    grid-area: servicios;
+    background-image: url(images/backcomunidad.jpg);
+    background-size: cover;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+  .container-grids .curses-grid-area {
+    grid-area: cursos;
+    background-image: url(images/servicios.jpg);
+    background-size: cover;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+  .container-grids .community-grid-area {
+    grid-area: comunidad;
+    background-image: url(images/bc2.jpg);
+    background-size: cover;
+    background-position: unset;
+    width: auto;
+    height: 250px;
+    margin: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 50px;
+    color: #000000; }
+
+.container-grid-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 50px;
+  margin: 40px;
+  margin-left: 30px; }
+
+.container-grid-video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 50px;
+  margin: 40px; }
+  .container-grid-video .card, .container-grid-video .card2 {
+    padding: 15px;
+    margin: 15px; }
+
+.main-title {
+  font-size: 50px;
+  font-family: "Cabin Sketch", cursive;
+  margin: 10px;
+  padding: 10px; }
+
+.sub-title {
+  display: flex;
+  word-wrap: normal;
+  justify-content: center;
+  margin: 50px;
+  padding: 20px;
+  font-size: 45px;
+  font-family: "Cutive Mono", monospace; }
+
+.sub-title3 {
+  font-family: "Cutive Mono", monospace; }
+
+.sub-title3 {
+  font-family: "Cutive Mono", monospace; }
+
+.sub-title4 {
+  font-family: "Cutive Mono", monospace;
+  display: flex;
+  justify-content: center;
+  font-size: 40px; }
+
+.text5 {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Cutive Mono", monospace;
+  text-align: start; }
+
+.text6 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  padding: 10px;
+  margin: 25px; }
+
+.subtitle3 {
+  font-family: "Cutive Mono", monospace;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  padding: 20px; }
+
+.subtitle4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #54b77d; }
+
+.text7 {
+  color: #000000;
+  font-size: 20px; }
+
+.container-carousel {
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 250px;
+  padding-bottom: 100px; }
+
+.card, .card2 {
+  padding: 15px;
+  margin: 15px; }
+
+.col-3 {
+  font-size: 50px;
+  padding-top: 50px; }
+
+.col-4 {
+  font-size: 25px;
+  padding: 15px; }
+
+.container {
+  align-items: center;
+  margin: 80px; }
+  .container .col-sm-6 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    margin: 8px;
+    color: #54b77d; }
+  .container .col-sm-5 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color: #54b77d; }
+  .container .col-sm {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color: #54b77d; }
+  .container .row {
+    padding: 10px;
+    margin-top: 25px; }
+
+.red-Youtube {
+  color: black; }
+
+.red-Facebook {
+  color: grey; }
+
+.red-Instagram {
+  color: white; }
+
+.red-Whatsapp {
+  color: black; }
+
+.card, .card2 {
+  padding: 15px;
+  margin: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid #00000020;
+  border-radius: 10px -6; }
+
+.card2 {
+  background-color: #3fbc79;
+  border-radius: 10px; }
+
+.container {
+  margin: 80px;
+  padding: 15px; }

@@ -1,0 +1,71 @@
+.main-title {
+    font-size: $size5;
+    font-family: $brand-font;
+    margin: $size1;
+    padding: $size1;
+}
+
+
+.sub-title {
+    display: flex;
+    word-wrap: normal;
+    justify-content: center;
+    margin: $size5;
+    padding: $size3;
+    font-size: $size4b;
+    font-family: $container-font;
+}
+
+
+.sub-title3 {
+    font-family: $container-font;
+}
+
+
+
+.sub-title3 {
+    font-family: $container-font;
+}
+
+.sub-title4 {
+    font-family: $container-font;
+    display: flex;
+    justify-content: center;
+    font-size: $size4;
+}
+
+.text5 {
+    font-size: $size2;
+    color: $color-font;
+    font-family: $container-font;
+    text-align: start;
+}
+
+
+
+.text6 {
+    font-family: $content-font;
+    font-size: $size3b;
+    padding: $size1;
+    margin: $size3b;
+}
+
+.subtitle3 {
+    font-family:$container-font;
+    display: flex;
+    justify-content: space-between;
+    font-size: $size4;
+    padding: $size3;
+}
+
+.subtitle4 {
+    font-family: $content-font;
+    font-size: $size4;
+    color: $brand-color;
+}
+
+
+.text7 {
+    color: $color-font;
+    font-size:  $size3;
+}
